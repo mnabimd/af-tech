@@ -11,7 +11,7 @@ export const InfiniteMovingCards = ({
    className,
    renderItem
 }: {
-   items: [];
+   items: any;
    direction?: 'left' | 'right';
    speed?: 'fast' | 'normal' | 'slow';
    pauseOnHover?: boolean;

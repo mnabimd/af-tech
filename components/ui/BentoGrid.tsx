@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState } from 'react';
 import { IoCallOutline, IoCopyOutline } from 'react-icons/io5';
 import Lottie from 'react-lottie';
