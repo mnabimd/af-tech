@@ -6,6 +6,9 @@ import Hero from '@/components/Hero';
 import Experience from '@/components/Experience';
 
 import dynamic from 'next/dynamic';
+import TechStack from '@/components/TechStack';
+import FeelsLikeYou from '@/components/FeelsLikeYou';
+import FAQ from '@/components/FAQ';
 
 const BrowserComponent = dynamic(() => import('@/components/Grid'), {
    ssr: false
@@ -18,6 +21,9 @@ const Home = () => {
             <Hero />
             <BrowserComponent />
             <Experience />
+            <TechStack />
+            <FeelsLikeYou />
+            <FAQ />
          </div>
       </main>
    );
